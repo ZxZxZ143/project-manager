@@ -1,0 +1,17 @@
+body {
+  font-family: $font-family-primary;
+  margin: 0;
+  background-color: $c-bg;
+  min-height: 100vh;
+}
+
+.wrapper {
+  max-width: 1440px;
+  padding: 0 70px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.main {
+  padding-bottom: 100px;
+}

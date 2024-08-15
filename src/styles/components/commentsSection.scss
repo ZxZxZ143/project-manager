@@ -1,0 +1,32 @@
+.comment-section {
+  margin-top: 30px;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.comment {
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  .comment-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+
+    p {
+      color: $gray4;
+    }
+  }
+
+  .comment-text {
+    white-space: pre-line;
+    line-height: 1.4;
+  }
+}

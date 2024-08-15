@@ -1,0 +1,14 @@
+.pagination {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  .page-input {
+    input {
+      width: 50px;
+      text-align: center;
+    }
+  }
+}

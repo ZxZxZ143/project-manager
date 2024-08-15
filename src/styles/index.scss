@@ -1,0 +1,28 @@
+// settings
+@import "settings/colors";
+@import "settings/fonts";
+@import "settings/variables";
+@import "@blueprintjs/core/lib/scss/variables";
+@import "@blueprintjs/core/lib/css/blueprint.css";
+@import "@blueprintjs/datetime/lib/css/blueprint-datetime.css";
+
+// generic
+@import "generic/reset";
+@import "generic/base";
+
+// elements
+@import "elements/pagination";
+
+// components
+@import "components/header";
+@import "components/logIn";
+@import "components/protectedRoute";
+@import "components/project";
+@import "components/projectDetail";
+@import "components/statusSection";
+@import "components/taskSection";
+@import "components/task";
+@import "components/taskDetail";
+@import "components/commentsSection";
+@import "components/fileSection";
+@import "components/profile";

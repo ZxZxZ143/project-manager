@@ -1,0 +1,32 @@
+.task {
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    stroke: $blue3;
+    fill: $blue3;
+
+  }
+
+  .task-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      color: $blue3;
+    }
+  }
+
+  .assigned-name {
+    color: $blue3;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}

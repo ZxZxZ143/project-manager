@@ -1,0 +1,59 @@
+.task-detail {
+  width: 100%;
+  margin-top: 40px;
+
+  .task-detail-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .task-title {
+      margin: 0;
+    }
+  }
+
+  .task-detail-main {
+    h5 {
+      margin: 0;
+    }
+  }
+
+  .task-desc {
+    width: 100%;
+    margin-top: 20px;
+
+    p {
+      font-size: 18px;
+      margin-top: 5px;
+    }
+  }
+
+  .task-assignee {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .task-due-date {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+.assignee-dialog {
+  max-width: 300px;
+
+  .assignee-dialog-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    button {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.dnd-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+  background-color: $dark-gray2;
+  padding: 10px;
+  border-radius: 10px;
+}

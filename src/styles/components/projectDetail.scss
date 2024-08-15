@@ -1,0 +1,32 @@
+.project-detail-container {
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+
+  .project-detail-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .project-header-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .tasks-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    .empty-task-msg {
+      margin-top: 100px;
+    }
+  }
+}
